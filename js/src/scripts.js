@@ -35,6 +35,7 @@ var SITE = {
 					&& (ppRight <= context.froakieRight)) {
 					var ppId = ui.helper.context.id;
 					$('#' + ppId).remove();
+					$('#yummy')[0].play();
 				}
 			}
 		});
