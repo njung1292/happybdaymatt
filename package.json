@@ -1,0 +1,27 @@
+{
+  "name": "happybdaymatt",
+  "version": "0.0.0",
+  "description": "matmatmat",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/njung92/happybdaymatt.git"
+  },
+  "keywords": [
+    "mat",
+    "happybdaymatt"
+  ],
+  "author": "jing and noelle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/njung92/happybdaymatt/issues"
+  },
+  "homepage": "https://github.com/njung92/happybdaymatt",
+  "dependencies": {
+    "express": "~3.4.8",
+    "logfmt": "~0.20.0"
+  }
+}
