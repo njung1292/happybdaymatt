@@ -16,15 +16,28 @@ var SITE = {
 
 	cacheVars: function() {
 		this.$froakie = $('#froakie');
+		this.froakieLeft = this.$froakie.position().left;
+		this.froakieRight = this.froakieLeft + this.$froakie.width();
 		this.$pokepuffs = $('.pokepuff');
 	},
 
 	bindEvents: function() {
-		this.$body.on('click', this.functionName.bind(this));
 	},
 
 	initDraggable: function() {
-		this.$pokepuffs.draggable();
+		var context = this;
+		this.$pokepuffs.draggable({
+			stop: function(e, ui) {
+				var ppLeft = ui.offset.left;
+				var ppRight = ppLeft + 50;
+
+				if ((ppLeft >= context.froakieLeft)
+					&& (ppRight <= context.froakieRight)) {
+					var ppId = ui.helper.context.id;
+					$('#' + ppId).remove();
+				}
+			}
+		});
 	},
 
 	functionName: function(e) {
