@@ -89,7 +89,9 @@ html {
 /* line 13, ../sass/_base.scss */
 body {
   overflow: hidden;
-  background: url("../../images/background.jpg") no-repeat center center fixed;
+
+  background-image: url("../../images/background.jpg");
+
   -webkit-background-size: cover;
   background-size: cover;
   min-height: 100%;
@@ -98,12 +100,20 @@ body {
 
 /* @end */
 /* @group additional styling */
+<<<<<<< HEAD
+/* line 35, ../sass/_base.scss */
+=======
 /* line 33, ../sass/_base.scss */
+>>>>>>> 9ada8956e32e38690c8ec7f9dca012d2ba753c84
 .hide {
   display: none;
 }
 
+<<<<<<< HEAD
+/* line 39, ../sass/_base.scss */
+=======
 /* line 37, ../sass/_base.scss */
+>>>>>>> 9ada8956e32e38690c8ec7f9dca012d2ba753c84
 .hide-text {
   display: block;
   overflow: hidden;
