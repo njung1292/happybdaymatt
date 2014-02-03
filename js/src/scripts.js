@@ -26,6 +26,18 @@ var SITE = {
 	bindEvents: function() {
 	},
 
+	flashtext: function() {
+		setInterval(function() {
+			$('#message')[0].style.color = 'red';
+			$('#message')[0].style.color = 'yellow';
+			$('#message')[0].style.color = 'magenta';
+			$('#message')[0].style.color = 'green';
+			$('#message')[0].style.color = 'purple';
+			$('#message')[0].style.color = 'cyan';
+			$('#message')[0].style.color = 'orange';
+		},200);
+	},
+
 	initDraggable: function() {
 		var context = this;
 		this.$pokepuffs.draggable({
@@ -52,6 +64,8 @@ var SITE = {
 						$('#evolve')[0].play();
 						$('#frozen').animate({volume: 0}, 1000);
 						$('#victory')[0].play();
+						$('#message')[0].style.visibility="visible";
+						context.flashtext();
 					}
 					// context.$froakie.effect('shake',50);
 					// var stopMe = setInterval(function(){

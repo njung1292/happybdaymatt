@@ -155,50 +155,62 @@ body {
 }
 
 /* line 30, ../sass/_content.scss */
+#message {
+  visibility: hidden;
+  font-family: 'Fredoka One', cursive;
+  font-size: -webkit-xxx-large;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+/* line 41, ../sass/_content.scss */
 .pokepuff {
   width: 50px;
   height: auto;
 }
 
-/* line 35, ../sass/_content.scss */
+/* line 46, ../sass/_content.scss */
 #pokepuffs {
   position: absolute;
   width: 50%;
   right: 0;
   bottom: 0;
 }
-/* line 41, ../sass/_content.scss */
+/* line 52, ../sass/_content.scss */
 #pokepuffs .pokepuff {
   position: absolute;
   right: 0;
   bottom: 0;
 }
-/* line 47, ../sass/_content.scss */
+/* line 58, ../sass/_content.scss */
 #pokepuffs #pp1 {
   right: 400px;
   bottom: 300px;
 }
-/* line 51, ../sass/_content.scss */
+/* line 62, ../sass/_content.scss */
 #pokepuffs #pp2 {
   right: 300px;
   bottom: 300px;
 }
-/* line 55, ../sass/_content.scss */
+/* line 66, ../sass/_content.scss */
 #pokepuffs #pp3 {
   right: 200px;
   bottom: 300px;
 }
-/* line 59, ../sass/_content.scss */
+/* line 70, ../sass/_content.scss */
 #pokepuffs #pp4 {
   right: 400px;
   bottom: 175px;
 }
-/* line 63, ../sass/_content.scss */
+/* line 74, ../sass/_content.scss */
 #pokepuffs #pp5 {
   right: 300px;
   bottom: 175px;
 }
-/* line 67, ../sass/_content.scss */
+/* line 78, ../sass/_content.scss */
 #pokepuffs #pp6 {
   right: 200px;
   bottom: 175px;
