@@ -54,15 +54,6 @@ var SITE = {
 						$('#frozen').animate({volume: 0}, 1000);
 						$('#victory')[0].play();
 						context.$message.style.visibility="visible";
-						setInterval(function() {
-							context.$message.style.color = 'red';
-							context.$message.style.color = 'yellow';
-							context.$message.style.color = 'magenta';
-							context.$message.style.color = 'green';
-							context.$message.style.color = 'purple';
-							context.$message.style.color = 'cyan';
-							context.$message.style.color = 'orange';
-						},200);
 					}
 					// context.$froakie.effect('shake',50);
 					// var stopMe = setInterval(function(){
