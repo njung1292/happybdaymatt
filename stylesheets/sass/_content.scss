@@ -27,15 +27,25 @@
 	}
 }
 
+@-webkit-keyframes blink {
+	0% { color: red; }
+	20% { color: yellow; }
+	40% { color: magenta; }
+	50% { color: green; }
+	80% { color: cyan; }
+	100% { color: orange; }
+}
+
 #message {
 	visibility: hidden;
 	font-family: 'Fredoka One', cursive;
 	font-size:-webkit-xxx-large;
 	position: fixed;
-	top: 50%;
+	top: 25%px;
 	left:50%;
 	margin-top: -50px;
 	margin-left: -100px;
+	-webkit-animation: blink 5s linear infinite;
 }
 
 .pokepuff {

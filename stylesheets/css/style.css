@@ -154,63 +154,96 @@ body {
   background-size: contain;
 }
 
-/* line 30, ../sass/_content.scss */
+@-webkit-keyframes blink {
+  /* line 31, ../sass/_content.scss */
+  0% {
+    color: red;
+  }
+
+  /* line 32, ../sass/_content.scss */
+  20% {
+    color: yellow;
+  }
+
+  /* line 33, ../sass/_content.scss */
+  40% {
+    color: magenta;
+  }
+
+  /* line 34, ../sass/_content.scss */
+  50% {
+    color: green;
+  }
+
+  /* line 35, ../sass/_content.scss */
+  80% {
+    color: cyan;
+  }
+
+  /* line 36, ../sass/_content.scss */
+  100% {
+    color: orange;
+  }
+}
+
+/* line 39, ../sass/_content.scss */
 #message {
   visibility: hidden;
   font-family: 'Fredoka One', cursive;
   font-size: -webkit-xxx-large;
   position: fixed;
-  top: 50%;
+  top: 25%px;
   left: 50%;
   margin-top: -50px;
   margin-left: -100px;
+  -webkit-animation: blink 5s linear infinite;
 }
 
-/* line 41, ../sass/_content.scss */
+/* line 51, ../sass/_content.scss */
 .pokepuff {
   width: 50px;
   height: auto;
 }
 
-/* line 46, ../sass/_content.scss */
+/* line 56, ../sass/_content.scss */
 #pokepuffs {
   position: absolute;
   width: 50%;
   right: 0;
   bottom: 0;
 }
-/* line 52, ../sass/_content.scss */
+/* line 62, ../sass/_content.scss */
 #pokepuffs .pokepuff {
   position: absolute;
   right: 0;
   bottom: 0;
 }
-/* line 58, ../sass/_content.scss */
+/* line 68, ../sass/_content.scss */
 #pokepuffs #pp1 {
   right: 400px;
   bottom: 300px;
 }
-/* line 62, ../sass/_content.scss */
+/* line 72, ../sass/_content.scss */
 #pokepuffs #pp2 {
   right: 300px;
   bottom: 300px;
 }
-/* line 66, ../sass/_content.scss */
+/* line 76, ../sass/_content.scss */
 #pokepuffs #pp3 {
   right: 200px;
   bottom: 300px;
 }
-/* line 70, ../sass/_content.scss */
+/* line 80, ../sass/_content.scss */
 #pokepuffs #pp4 {
   right: 400px;
   bottom: 175px;
 }
-/* line 74, ../sass/_content.scss */
+/* line 84, ../sass/_content.scss */
 #pokepuffs #pp5 {
   right: 300px;
   bottom: 175px;
 }
-/* line 78, ../sass/_content.scss */
+/* line 88, ../sass/_content.scss */
 #pokepuffs #pp6 {
   right: 200px;
   bottom: 175px;
