@@ -50,6 +50,8 @@ var SITE = {
 						context.$froakie.removeClass('frogadier');
 						context.$froakie.addClass('greninja');
 						$('#evolve')[0].play();
+						$('#frozen').animate({volume: 0}, 1000);
+						$('#victory')[0].play();
 					}
 					// context.$froakie.effect('shake',50);
 					// var stopMe = setInterval(function(){
