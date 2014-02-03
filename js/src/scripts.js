@@ -19,6 +19,7 @@ var SITE = {
 		this.froakieLeft = this.$froakie.position().left;
 		this.froakieRight = this.froakieLeft + this.$froakie.width();
 		this.$pokepuffs = $('.pokepuff');
+		this.count = 0;
 	},
 
 	bindEvents: function() {
@@ -36,6 +37,12 @@ var SITE = {
 					var ppId = ui.helper.context.id;
 					$('#' + ppId).remove();
 					$('#yummy')[0].play();
+					context.count += 1;
+					console.log(context.count);
+					if (context.count == 2) {
+						context.$froakie.removeClass('appear');
+						context.$froakie.addClass('frogadier');
+					}
 					// context.$froakie.effect('shake',50);
 					// var stopMe = setInterval(function(){
 					// 	context.$froakie.effect('shake',50),200});

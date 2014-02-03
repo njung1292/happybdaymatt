@@ -1,5 +1,5 @@
 /* compass */
-/* line 17, ../../../.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../../usr/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,45 +21,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../usr/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../usr/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../usr/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../usr/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../usr/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../usr/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../usr/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../../usr/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -131,52 +131,62 @@ body {
   transition: all 1s ease-in-out 0;
   bottom: 10px;
 }
+/* line 15, ../sass/_content.scss */
+#froakie.frogadier {
+  background: url("../../images/frogadier.png") no-repeat;
+  -webkit-transition: all 3s ease-in-out;
+  -webkit-transition-delay: 3;
+  -moz-transition: all 3s ease-in-out 3;
+  -o-transition: all 3s ease-in-out 3;
+  transition: all 3s ease-in-out 3;
+  bottom: 10px;
+}
 
-/* line 16, ../sass/_content.scss */
+/* line 22, ../sass/_content.scss */
 .pokepuff {
   width: 50px;
   height: auto;
 }
 
-/* line 21, ../sass/_content.scss */
+/* line 27, ../sass/_content.scss */
 #pokepuffs {
   position: absolute;
   width: 50%;
   right: 0;
   bottom: 0;
 }
-/* line 27, ../sass/_content.scss */
+/* line 33, ../sass/_content.scss */
 #pokepuffs .pokepuff {
   position: absolute;
   right: 0;
   bottom: 0;
 }
-/* line 33, ../sass/_content.scss */
+/* line 39, ../sass/_content.scss */
 #pokepuffs #pp1 {
   right: 400px;
   bottom: 300px;
 }
-/* line 37, ../sass/_content.scss */
+/* line 43, ../sass/_content.scss */
 #pokepuffs #pp2 {
   right: 300px;
   bottom: 300px;
 }
-/* line 41, ../sass/_content.scss */
+/* line 47, ../sass/_content.scss */
 #pokepuffs #pp3 {
   right: 200px;
   bottom: 300px;
 }
-/* line 45, ../sass/_content.scss */
+/* line 51, ../sass/_content.scss */
 #pokepuffs #pp4 {
   right: 400px;
   bottom: 175px;
 }
-/* line 49, ../sass/_content.scss */
+/* line 55, ../sass/_content.scss */
 #pokepuffs #pp5 {
   right: 300px;
   bottom: 175px;
 }
-/* line 53, ../sass/_content.scss */
+/* line 59, ../sass/_content.scss */
 #pokepuffs #pp6 {
   right: 200px;
   bottom: 175px;

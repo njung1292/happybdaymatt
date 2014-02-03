@@ -11,6 +11,12 @@
 		@include transition(all 1s ease-in-out 0);
 		bottom: 10px;
 	}
+
+	&.frogadier {
+		background: url('../../images/frogadier.png') no-repeat;
+		@include transition(all 3s ease-in-out 3);
+		bottom: 10px;
+	}
 }
 
 .pokepuff {
