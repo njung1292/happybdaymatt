@@ -36,14 +36,12 @@ var SITE = {
 					var ppId = ui.helper.context.id;
 					$('#' + ppId).remove();
 					$('#yummy')[0].play();
-					var stopMe = setInterval(function(){
-						context.$froakie.stop(true,true).animate({left: '+=10'}, 100, function(){
-      						$(this).stop(true,true).animate({left: '-=10'},100); 
-      					});
-					}, 200);
-					setTimeout(function() {
-						clearInterval(stopMe);
-					},500);
+					// context.$froakie.effect('shake',50);
+					// var stopMe = setInterval(function(){
+					// 	context.$froakie.effect('shake',50),200});
+					// setTimeout(function() {
+					// 	clearInterval(stopMe);
+					// },1000);
 				}
 			}
 		});
