@@ -14,14 +14,14 @@
 
 	&.frogadier {
 		background: url('../../images/frogadier.png') no-repeat;
-		@include transition(all 3s ease-in-out 0);
+		@include transition(background 3s ease-in-out 0);
 		bottom: 10px;
 		background-size:contain;
 	}
 
 	&.greninja {
 		background: url('../../images/greninja.png') no-repeat;
-		@include transition(all 3s ease-in-out 0);
+		@include transition(background 3s ease-in-out 0);
 		bottom: 10px;
 		background-size:contain;
 	}
