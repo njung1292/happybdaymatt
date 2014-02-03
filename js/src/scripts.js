@@ -39,9 +39,13 @@ var SITE = {
 					$('#yummy')[0].play();
 					context.count += 1;
 					console.log(context.count);
-					if (context.count == 2) {
+					if (context.count == 3) {
 						context.$froakie.removeClass('appear');
 						context.$froakie.addClass('frogadier');
+					}
+					if (context.count == 6) {
+						context.$froakie.removeClass('frogadier');
+						context.$froakie.addClass('greninja');
 					}
 					// context.$froakie.effect('shake',50);
 					// var stopMe = setInterval(function(){

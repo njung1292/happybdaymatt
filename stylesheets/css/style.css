@@ -140,53 +140,65 @@ body {
   -o-transition: all 3s ease-in-out 3;
   transition: all 3s ease-in-out 3;
   bottom: 10px;
+  background-size: contain;
+}
+/* line 22, ../sass/_content.scss */
+#froakie.greninja {
+  background: url("../../images/greninja.png") no-repeat;
+  -webkit-transition: all 3s ease-in-out;
+  -webkit-transition-delay: 3;
+  -moz-transition: all 3s ease-in-out 3;
+  -o-transition: all 3s ease-in-out 3;
+  transition: all 3s ease-in-out 3;
+  bottom: 10px;
+  background-size: contain;
 }
 
-/* line 22, ../sass/_content.scss */
+/* line 30, ../sass/_content.scss */
 .pokepuff {
   width: 50px;
   height: auto;
 }
 
-/* line 27, ../sass/_content.scss */
+/* line 35, ../sass/_content.scss */
 #pokepuffs {
   position: absolute;
   width: 50%;
   right: 0;
   bottom: 0;
 }
-/* line 33, ../sass/_content.scss */
+/* line 41, ../sass/_content.scss */
 #pokepuffs .pokepuff {
   position: absolute;
   right: 0;
   bottom: 0;
 }
-/* line 39, ../sass/_content.scss */
+/* line 47, ../sass/_content.scss */
 #pokepuffs #pp1 {
   right: 400px;
   bottom: 300px;
 }
-/* line 43, ../sass/_content.scss */
+/* line 51, ../sass/_content.scss */
 #pokepuffs #pp2 {
   right: 300px;
   bottom: 300px;
 }
-/* line 47, ../sass/_content.scss */
+/* line 55, ../sass/_content.scss */
 #pokepuffs #pp3 {
   right: 200px;
   bottom: 300px;
 }
-/* line 51, ../sass/_content.scss */
+/* line 59, ../sass/_content.scss */
 #pokepuffs #pp4 {
   right: 400px;
   bottom: 175px;
 }
-/* line 55, ../sass/_content.scss */
+/* line 63, ../sass/_content.scss */
 #pokepuffs #pp5 {
   right: 300px;
   bottom: 175px;
 }
-/* line 59, ../sass/_content.scss */
+/* line 67, ../sass/_content.scss */
 #pokepuffs #pp6 {
   right: 200px;
   bottom: 175px;
