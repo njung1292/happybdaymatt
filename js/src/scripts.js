@@ -66,7 +66,7 @@ var SITE = {
 		});
 		this.$froakie.draggable({
 			stop: function(e,ui) {
-				context.froakieLeft = context.$froakie.position().left;
+				context.froakieLeft = ui.position().left;
 				context.froakieRight = context.froakieLeft + context.$froakie.width();
 			}
 		});
