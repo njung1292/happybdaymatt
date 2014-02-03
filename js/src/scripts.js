@@ -43,11 +43,13 @@ var SITE = {
 					if (context.count == 3) {
 						context.$froakie.removeClass('appear');
 						context.$froakie.addClass('frogadier');
+						$('#evolve')[0].play();
 						yummy = $('#deepyummy')[0];
 					}
 					if (context.count == 6) {
 						context.$froakie.removeClass('frogadier');
 						context.$froakie.addClass('greninja');
+						$('#evolve')[0].play();
 					}
 					// context.$froakie.effect('shake',50);
 					// var stopMe = setInterval(function(){
