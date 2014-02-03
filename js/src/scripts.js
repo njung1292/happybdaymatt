@@ -12,6 +12,7 @@ var SITE = {
 		});
 
 		this.initDraggable();
+		yummy = $('#yummy')[0];
 	},
 
 	cacheVars: function() {
@@ -36,12 +37,13 @@ var SITE = {
 					&& (ppRight <= context.froakieRight)) {
 					var ppId = ui.helper.context.id;
 					$('#' + ppId).remove();
-					$('#yummy')[0].play();
+					yummy.play();
 					context.count += 1;
 					console.log(context.count);
 					if (context.count == 3) {
 						context.$froakie.removeClass('appear');
 						context.$froakie.addClass('frogadier');
+						yummy = $('#deepyummy')[0];
 					}
 					if (context.count == 6) {
 						context.$froakie.removeClass('frogadier');
@@ -54,6 +56,12 @@ var SITE = {
 					// 	clearInterval(stopMe);
 					// },1000);
 				}
+			}
+		});
+		this.$froakie.draggable({
+			stop: function(e,ui) {
+				context.froakieLeft = context.$froakie.position().left;
+				context.froakieRight = context.froakieLeft + context.$froakie.width();
 			}
 		});
 	},
