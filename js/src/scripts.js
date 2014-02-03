@@ -36,6 +36,14 @@ var SITE = {
 					var ppId = ui.helper.context.id;
 					$('#' + ppId).remove();
 					$('#yummy')[0].play();
+					var stopMe = setInterval(function(){
+						context.$froakie.stop(true,true).animate({left: '+=10'}, 100, function(){
+      						$(this).stop(true,true).animate({left: '-=10'},100); 
+      					});
+					}, 200);
+					setTimeout(function() {
+						clearInterval(stopMe);
+					},500);
 				}
 			}
 		});
